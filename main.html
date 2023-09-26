@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show/Hide Components</title>
+    <style>
+        .component1 {
+            display: block;
+        }
+
+        .component2 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="component1">
+        <p>This is Component 1.</p>
+        <button onclick="toggleComponents()">Switch to Component 2</button>
+    </div>
+
+    <div class="component2">
+        <p>This is Component 2.</p>
+        <button onclick="toggleComponents()">Switch to Component 1</button>
+    </div>
+
+    <script>
+        function toggleComponents() {
+            var component1 = document.querySelector('.component1');
+            var component2 = document.querySelector('.component2');
+
+            if (component1.style.display === 'block') {
+                component1.style.display = 'none';
+                component2.style.display = 'block';
+            } else {
+                component1.style.display = 'block';
+                component2.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>

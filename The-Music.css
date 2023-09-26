@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.section {
+    width: 100%;
+    height: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, hsl(235.32deg 100% 15.1%), hsl(235.85deg 96.44% 44.12%), hsl(242.18deg 75.34% 14.31%), hsl(214.29deg 30.43% 4.51%));
+}
+
+
+.G1 {
+    width: 90%;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.G2 {
+    width: 100%;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.G4 {
+    width: 100%;
+    height: 110vh;
+    background-color: hsl(226.53deg 71.01% 13.53%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 50px;
+}
+
+.Names {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.M1 {
+    width: 100%;
+    height: 1.8rem;
+    padding-left: 2.5rem;
+    color: darkred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.M2 {
+    width: 100%;
+    padding-left: 2.5rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.Names1 {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.D2 {
+    width: 100%;
+    padding-left: 2.5rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.G5 {
+    width: 100%;
+    height: 110vh;
+    background-image: radial-gradient(circle, hsl(246.57deg 100% 26.86%), hsl(224.57deg 63.64% 10.78%), hsl(224.57deg 63.64% 10.78%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+}
+
+.uppercont {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.H1 {
+    width: 100%;
+    height: max-content;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(247.06deg 91.62% 67.25%);
+    padding-left: 5rem;
+}
+
+.H2 {
+    width: 100%;
+    height: max-content;
+    font-size: 2rem;
+    color: white;
+    padding-left: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+.H3 {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    /* background: rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); */
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+.carousel-item {
+    width: 200%;
+}
+
+.carousel-item img {
+    border-radius: 100px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.H4 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-bottom: -1rem;
+}
+
+.lowercont {
+    width: 100%;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content1 {
+    width: 90%;
+    height: 240px;
+}
+
+.W1 {
+    width: 23%;
+    height: 190px;
+    margin-top: 1.9rem;
+    border-radius: 30px;
+    margin-right: 2rem;
+}
+
+.W1 img {
+    width: 100%;
+    height: 190px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.G3 {
+    width: 100%;
+    height: 12vh;
+    background-image: linear-gradient(to right, hsl(243.96deg 81.74% 52.75%), hsl(242.98deg 49.79% 52.35%), hsl(226.91deg 23.01% 53.14%));
+    position: relative;
+    top: 7rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A1 {
+    width: 5%;
+    height: 65px;
+    border-radius: 100px;
+    margin-right: 1rem;
+}
+
+.A1 img {
+    width: 100%;
+    height: 65px;
+    border-radius: 100px;
+}
+
+.A2 {
+    width: 15%;
+    height: auto;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+}
+
+.AA1 {
+    color: silver;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.A3 {
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.bar414 {
+    width: 40%;
+    height: 60px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1440px) {
+
+    .section {
+        height: 70vw;
+    }
+
+    .G1 {
+        width: 90%;
+        height: 80vh;
+        position: relative;
+        top: -10rem;
+    }
+
+    .G2 {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+
+    .G4 {
+        height: 120vh;
+    }
+
+    .G5 {
+        height: 120vh;
+    }
+
+    .uppercont {
+        height: 450px;
+        position: relative;
+        top: 0.9rem;
+    }
+
+    .lowercont {
+        height: 310px;
+        position: relative;
+        top: 1rem;
+    }
+
+    .W1 {
+        width: 23%;
+        height: 200px;
+        margin-top: 1.0rem;
+    }
+
+    .G3 {
+        width: 100%;
+        height: 12vh;
+        position: relative;
+        top: 7.9rem;
+    }
+
+    .A1 {
+        width: 4%;
+        height: 60px;
+        border-radius: 100px;
+    }
+
+    .A1 img {
+        width: 100%;
+        height: 50px;
+        border-radius: 100px;
+        position: relative;
+        top: 0.3rem;
+    }
+
+    .A2 {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .section {
+        height: 90vw;
+    }
+
+    .G1 {
+        position: relative;
+        top: -10rem;
+    }
+
+    .A1 {
+        width: 6%;
+        height: 65px;
+        border-radius: 100px;
+    }
+
+    .A1 img {
+        width: 100%;
+        height: 55px;
+        border-radius: 100px;
+        position: relative;
+        top: 0.2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section {
+        height: 120vw;
+    }
+
+    .H3 {
+        width: 100%;
+    }
+
+    .content1 {
+        width: 95%;
+        height: 200px;
+    }
+
+    .W1 {
+        height: 160px;
+        margin-top: 1.9rem;
+        margin-right: 1.5rem;
+    }
+
+    .W1 img {
+        width: 100%;
+        height: 160px;
+    }
+
+    .A2 {
+        margin-right: 2rem;
+    }
+
+    .A3 {
+        margin-right: 2rem;
+    }
+
+    .A1 {
+        width: 8%;
+    }
+
+    .A1 img {
+        top: 0.3rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .section {
+        height: 220vw;
+    }
+
+    .G1 {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        top: -10rem;
+    }
+
+    .M1,
+    .M2,
+    .D2 {
+        padding-left: 1.2rem;
+    }
+
+    .uppercont {
+        height: 450px;
+        position: relative;
+        top: 0rem;
+    }
+
+    .lowercont {
+        height: 310px;
+        position: relative;
+        top: 0rem;
+    }
+
+    .content1 {
+        width: 100%;
+        height: 170px;
+    }
+
+    .W1 {
+        width: 35%;
+        height: 160px;
+        margin-top: 1.2rem;
+        margin-right: 1.5rem;
+    }
+
+    .G3 {
+        position: relative;
+        top: 7.5rem;
+    }
+
+    .A2 {
+        display: none;
+    }
+
+    .A3 {
+        margin-right: 0rem;
+    }
+
+
+    .A1 {
+        width: 12%;
+    }
+
+    .A1 img {
+        top: 0.3rem;
+    }
+
+    .H1,
+    .H2 {
+        padding-left: 2rem;
+    }
+
+}
